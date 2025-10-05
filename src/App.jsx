@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
@@ -8,26 +6,36 @@ function App() {
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      {/* nav start */}
+      <nav className='navbar'>
+        <div className='container'>
+          <h1>React Recipe Book</h1>
+        </div>
+      </nav>
+      {/* nav end */}
+
+      <main>
+        <div className='container'>
+          <div className='row'>
+            <div className='col-12 col-md-6'>
+              <div className='my-container'>
+              {/* form start */}
+              <h2>Submission Form</h2>
+              <p>form Here</p>
+              {/* form end */}
+              </div>
+            </div>
+            <div className='col-12 col-md-6'>
+              <div className='my-container'>
+              {/* recipe book start */}
+              <h2>Recipe Book</h2>
+              <p>Here you will find a collection of my favorite recipes.</p>
+              {/* recipe book end */}
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
     </>
   )
 }
