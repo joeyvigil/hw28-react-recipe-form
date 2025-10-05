@@ -32,3 +32,49 @@ nav{
   background-color: #F7F9FA; /* very light gray */
   box-shadow: 0 4px 12px rgba(44, 62, 80, 0.08);
 }
+
+.form-label{
+  padding: 10px 0px 0px 0px;
+}
+
+ul {
+  background-color: #F7F9FA;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(44, 62, 80, 0.05);
+}
+
+li {
+  border-bottom: 1px solid #E0E0E0;
+  color: #34495E;
+  font-size: 1.1rem;
+}
+
+button {
+  background-color: #34495E; /* lighter slate */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: #2C3E50; /* dark navy */
+  box-shadow: 0 0 0 3px rgba(52, 73, 94, 0.3);
+}
+button:active {
+  background-color: #1A252F; /* deep navy */
+}
+button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(52, 73, 94, 0.3);
+}
+
+alert {
+  color: red;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+
+
